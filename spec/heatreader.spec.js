@@ -1,3 +1,7 @@
+/**
+ * Copyright 2013 MIT Libraries.
+ */
+
 var HeatReader = require("../src/heatreader.js");
 var $ = require("jquery");
 

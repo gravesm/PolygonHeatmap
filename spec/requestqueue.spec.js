@@ -1,3 +1,7 @@
+/**
+ * Copyright 2013 MIT Libraries.
+ */
+
 var RequestQueue = require("../src/requestqueue");
 
 describe("RequestQueue", function() {

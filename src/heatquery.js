@@ -1,3 +1,6 @@
+/**
+ * Copyright 2013 MIT Libraries.
+ */
 (function(root, factory) {
     if (typeof exports === "object") {
         module.exports = factory(require("jquery"));

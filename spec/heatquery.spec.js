@@ -1,3 +1,7 @@
+/**
+ * Copyright 2013 MIT Libraries.
+ */
+
 var HeatQuery = require("../src/heatquery");
 var $ = require("jquery");
 
