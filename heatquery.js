@@ -136,9 +136,13 @@
          */
         run: function(dfd) {
 
-            this.doPost().done(function(data) {
+            var ajax = this.doPost();
+
+            ajax.done(function(data) {
                 this.options.reader.read(dfd, data);
             });
+
+            return ajax;
 
         }
     }
