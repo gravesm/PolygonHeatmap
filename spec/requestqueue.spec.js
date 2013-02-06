@@ -1,4 +1,4 @@
-var RequestQueue = require("../requestqueue");
+var RequestQueue = require("../src/requestqueue");
 
 describe("RequestQueue", function() {
 

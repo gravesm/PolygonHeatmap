@@ -69,6 +69,16 @@ bounding box, and a configured instance of a HeatReader::
         }
     });
 
+Building
+--------
+
+Though not necessary, this can be compressed into a single file by using the
+RequireJS build profile in the root directory::
+
+    $ r.js -o build.js
+
+This will output a file called ``polygonheatmap.js`` in a target directory.
+
 Tests
 -----
 

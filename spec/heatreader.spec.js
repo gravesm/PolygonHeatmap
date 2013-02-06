@@ -1,4 +1,4 @@
-var HeatReader = require("../heatreader.js");
+var HeatReader = require("../src/heatreader.js");
 var $ = require("jquery");
 
 describe("HeatReader", function() {

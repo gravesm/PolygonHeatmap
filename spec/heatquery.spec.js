@@ -1,4 +1,4 @@
-var HeatQuery = require("../heatquery");
+var HeatQuery = require("../src/heatquery");
 var $ = require("jquery");
 
 describe("HeatQuery", function() {
